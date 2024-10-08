@@ -1,0 +1,28 @@
+.about-page {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    min-height: 100vh;
+    margin-top: 60px; 
+}
+
+.about-container {
+    padding: 20px;
+    background-color: #f5e0d3; 
+    color: #3b2e2e; 
+    text-align: center;
+    border-radius: 8px; 
+    margin-top: 40px;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    color: #4a3b3b;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

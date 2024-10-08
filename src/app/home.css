@@ -1,0 +1,61 @@
+.home-container {
+    background-image: url('/coffee.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    text-align: center;
+    position: relative;
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 20px;
+    margin: 10px 0 20px;
+  }
+  
+  .explore-button {
+    background-color: #d75605; 
+    color: white;
+    border: none;
+    padding: 12px 24px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; 
+    transition: background-color 0.3s, transform 0.3s; 
+  }
+  
+  .explore-button:hover {
+    background-color: #ff4f3a; 
+    transform: scale(1.05); 
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 36px; 
+    }
+  
+    p {
+      font-size: 18px; 
+    }
+  
+    .explore-button {
+      padding: 10px 20px; 
+      font-size: 16px;
+    }
+  }
+  
